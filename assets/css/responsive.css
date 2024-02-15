@@ -1,0 +1,120 @@
+/* Normal desktop :1400px. */
+@media (min-width: 1400px) {
+
+.header-area {
+    height: 920px;
+}
+    
+    
+}
+
+
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1399px) {
+
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+
+.header-content .title {
+	font-size: 54px;
+}
+.header-content p {
+	color: #fff;
+	font-size: 24px;
+	letter-spacing: 0.25px;
+	margin-top: 10px;
+}
+
+.link .main-btn {
+    padding: 0 12px;
+    letter-spacing: 0;
+    font-size: 10px;
+}
+
+
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+
+.main-btn {
+    padding: 0 25px;
+    letter-spacing: 0;
+    font-size: 14px;
+}
+.link .main-btn {
+    padding: 0 12px;
+    letter-spacing: 0;
+    font-size: 10px;
+}
+
+
+.header-area {
+    height: 620px;
+    background-position: center center
+}
+.header-content .title {
+	font-size: 44px;
+}
+.header-content p {
+	color: #fff;
+	font-size: 18px;
+	letter-spacing: 0.25px;
+	margin-top: 10px;
+}
+
+
+}
+
+ 
+/* Large Mobile :576px. */
+@media (max-width: 767.98px) {
+
+.header-area {
+    height: 520px;
+    background-position: center center
+}
+
+
+.main-btn {
+    padding: 0 25px;
+    letter-spacing: 0;
+    font-size: 14px;
+}
+
+
+.header-content .title {
+	font-size: 34px;
+}
+.header-content p {
+	color: #fff;
+	font-size: 16px;
+	letter-spacing: 0.25px;
+	margin-top: 10px;
+}
+
+.header-top{
+	position: initial;
+	background-color: #193775;
+}
+ 
+ 
+ 
+}
+ 
+
+/* small mobile :320px. */
+@media only screen and  (max-width: 575px) {
+
+
+ 
+}
+
